@@ -1,0 +1,46 @@
+2020-12-17T04:01:28+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function allowed_products_variation_in_the_cart(), 3 passed in C:\wamp\www\wp-56\wp-includes\class-wp-hook.php on line 287 and exactly 5 expected in C:\wamp\www\wp-56\wp-content\themes\twentytwentyone\functions.php:615
+Stack trace:
+#0 C:\wamp\www\wp-56\wp-includes\class-wp-hook.php(287): allowed_products_variation_in_the_cart(true, 10, 1)
+#1 C:\wamp\www\wp-56\wp-includes\plugin.php(212): WP_Hook->apply_filters(true, Array)
+#2 C:\wamp\www\wp-56\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(410): apply_filters('woocommerce_add...', true, 10, 1)
+#3 C:\wamp\www\wp-56\wp-includes\class-wp-hook.php(287): WC_AJAX::add_to_cart('')
+#4 C:\wamp\www\wp-56\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 C:\wamp\www\wp-56\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#6 C:\wamp\www\wp-56\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(90): do_action('wc_ajax_add_to_...')
+#7 C:\wamp\www\wp-56\wp-includes\class-wp-hook.p in C:\wamp\www\wp-56\wp-content\themes\twentytwentyone\functions.php on line 615
+
+2020-12-17T04:01:35+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function allowed_products_variation_in_the_cart(), 3 passed in C:\wamp\www\wp-56\wp-includes\class-wp-hook.php on line 287 and exactly 5 expected in C:\wamp\www\wp-56\wp-content\themes\twentytwentyone\functions.php:615
+Stack trace:
+#0 C:\wamp\www\wp-56\wp-includes\class-wp-hook.php(287): allowed_products_variation_in_the_cart(true, 11, 1)
+#1 C:\wamp\www\wp-56\wp-includes\plugin.php(212): WP_Hook->apply_filters(true, Array)
+#2 C:\wamp\www\wp-56\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(410): apply_filters('woocommerce_add...', true, 11, 1)
+#3 C:\wamp\www\wp-56\wp-includes\class-wp-hook.php(287): WC_AJAX::add_to_cart('')
+#4 C:\wamp\www\wp-56\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 C:\wamp\www\wp-56\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#6 C:\wamp\www\wp-56\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(90): do_action('wc_ajax_add_to_...')
+#7 C:\wamp\www\wp-56\wp-includes\class-wp-hook.p in C:\wamp\www\wp-56\wp-content\themes\twentytwentyone\functions.php on line 615
+
+2020-12-17T04:01:47+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function allowed_products_variation_in_the_cart(), 3 passed in C:\wamp\www\wp-56\wp-includes\class-wp-hook.php on line 287 and exactly 5 expected in C:\wamp\www\wp-56\wp-content\themes\twentytwentyone\functions.php:615
+Stack trace:
+#0 C:\wamp\www\wp-56\wp-includes\class-wp-hook.php(287): allowed_products_variation_in_the_cart(true, 10, 1)
+#1 C:\wamp\www\wp-56\wp-includes\plugin.php(212): WP_Hook->apply_filters(true, Array)
+#2 C:\wamp\www\wp-56\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(410): apply_filters('woocommerce_add...', true, 10, 1)
+#3 C:\wamp\www\wp-56\wp-includes\class-wp-hook.php(287): WC_AJAX::add_to_cart('')
+#4 C:\wamp\www\wp-56\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 C:\wamp\www\wp-56\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#6 C:\wamp\www\wp-56\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(90): do_action('wc_ajax_add_to_...')
+#7 C:\wamp\www\wp-56\wp-includes\class-wp-hook.p in C:\wamp\www\wp-56\wp-content\themes\twentytwentyone\functions.php on line 615
+
+2020-12-17T04:54:23+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on boolean in C:\wamp\www\wp-56\wp-content\themes\twentytwentyone\woocommerce\checkout\thankyou.php:83
+Stack trace:
+#0 C:\wamp\www\wp-56\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\wamp\www\wp-56\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(256): wc_get_template('checkout/thanky...', Array)
+#2 C:\wamp\www\wp-56\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(16)
+#3 C:\wamp\www\wp-56\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#4 C:\wamp\www\wp-56\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#5 C:\wamp\www\wp-56\wp-includes\shortcodes.php(343): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#6 [internal function]: do_shortcode_tag(Array)
+#7 C:\wamp\www\wp-56\wp-includes\sh in C:\wamp\www\wp-56\wp-content\themes\twentytwentyone\woocommerce\checkout\thankyou.php on line 83
+
+2020-12-17T10:45:33+00:00 CRITICAL syntax error, unexpected '.' in C:\wamp\www\wp-56\wp-content\themes\twentytwentyone\woocommerce\checkout\thankyou.php on line 114
+
